@@ -103,6 +103,10 @@ nav ul {
     transition: all 0.2s;
   }
 
+  form {
+    color: #ffffff;
+    
+  }
 
   small {
     position: absolute;
