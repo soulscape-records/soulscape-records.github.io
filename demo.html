@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>soulscape records — official website</title>
+    <link rel="stylesheet" href="./style_demo.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+        <div id="header">
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="#">demo</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">about</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/jamS72CNjX">community</a>
+                        </li>
+                        <li>
+                            <a href="mailto:soulscdemo@gmail.com">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <main>
+            <form id="music-submission-form">
+                <label for="artist-name">Artist name:</label>
+                <input type="text" id="artist-name" name="artist_name" required>
+              
+                <label for="track-name">Track name:</label>
+                <input type="text" id="track-name" name="track_name" required>
+              
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="track-link">Track link:</label>
+                <input type="url" id="track-link" name="track_link" required>
+              
+                <button type="submit">Submit</button>
+              </form>
+              
+              <script>
+              const form = document.getElementById('music-submission-form');
+              
+              form.addEventListener('submit', (event) => {
+                event.preventDefault();
+              
+                const formData = new FormData(form);
+              
+                const artistName = formData.get('artist_name');
+                const trackName = formData.get('track_name');
+                const email = formData.get('email');
+                const trackLink = formData.get('track_link');
+              
+                const discordWebhookUrl = 'https://discord.com/api/webhooks/1165289454852903023/UH8gYHBOzA3XNqhfvOHgzVjc_9PgVK3JM1dtYGbCfxlVPoX5-7VAYovpIOBJXp4-0oFO';
+              
+                const data = {
+                  content: `**Music submission**
+              
+                  Artist name: ${artistName}
+                  Track name: ${trackName}
+                  Email address: ${email}
+                  Track link: ${trackLink}`,
+                };
+              
+                fetch(discordWebhookUrl, {
+                  method: 'POST',
+                  body: JSON.stringify(data),
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                });
+              });
+              </script>
+              
+        </main>
+    </header>
+    <footer>
+        <p>
+            music curator / label ⸺ est. 2023 
+            <br>
+            copyright &copy; 2023, all rights reserved<a href="http://arvdevable.github.io/sitecred">.</a>
+        </p>
+    </footer>
+	<script src="index_demo.js"></script>
+  </body>
+</html>
