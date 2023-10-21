@@ -105,7 +105,7 @@ nav ul {
 
   form {
     color: #ffffff;
-    
+
   }
 
   small {
@@ -175,6 +175,10 @@ nav ul {
 
   .logbutton a {
     color: #202223;
+  }
+
+  #submission-status {
+    color: rgb(95, 95, 255);
   }
 
   #login {
