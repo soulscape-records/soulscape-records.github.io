@@ -51,37 +51,43 @@
               </form>
               
               <script>
-              const form = document.getElementById('music-submission-form');
-              
-              form.addEventListener('submit', (event) => {
-                event.preventDefault();
-              
-                const formData = new FormData(form);
-              
-                const artistName = formData.get('artist_name');
-                const trackName = formData.get('track_name');
-                const email = formData.get('email');
-                const trackLink = formData.get('track_link');
-              
-                const discordWebhookUrl = 'https://discord.com/api/webhooks/1165289454852903023/UH8gYHBOzA3XNqhfvOHgzVjc_9PgVK3JM1dtYGbCfxlVPoX5-7VAYovpIOBJXp4-0oFO';
-              
-                const data = {
-                  content: `**Music submission**
-              
-                  Artist name: ${artistName}
-                  Track name: ${trackName}
-                  Email address: ${email}
-                  Track link: ${trackLink}`,
-                };
-              
-                fetch(discordWebhookUrl, {
-                  method: 'POST',
-                  body: JSON.stringify(data),
-                  headers: {
-                    'Content-Type': 'application/json',
-                  },
-                });
-              });
+const form = document.getElementById('music-submission-form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const formData = new FormData(form);
+
+  const artistName = formData.get('artist_name');
+  const trackName = formData.get('track_name');
+  const email = formData.get('email');
+  const trackLink = formData.get('track_link');
+
+  const discordWebhookUrl = 'YOUR_DISCORD_WEBHOOK_URL';
+
+  const data = {
+    content: `**Music submission**
+
+    Artist name: ${artistName}
+    Track name: ${trackName}
+    Email address: ${email}
+    Track link: ${trackLink}`,
+  };
+
+  fetch(discordWebhookUrl, {
+    method: 'POST',
+    body: JSON.stringify(data),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  }).then(() => {
+    const submissionStatusElement = document.getElementById('submission-status');
+    submissionStatusElement.textContent = 'Your submission has been sent.';
+
+    form.reset();
+  });
+});
+
               </script>
               
         </main>
