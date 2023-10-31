@@ -57,6 +57,16 @@ h1, h2, h3, p {
     letter-spacing: -2px;
 }
 
+main p {
+  font-size: 2.1vw;
+  letter-spacing: 0.3px;
+}
+
+main h1 {
+  font-size: 7vw;
+  line-height: 10px;
+}
+
 main {
     position: absolute;
     margin: 80px;
