@@ -4,7 +4,7 @@
 | [soulscapeartistguidelines2](/sag-d2.md) | 2nd        | lumiscape           | 3rd of January, 2023 |
 | soulscapeartistguidelines3 | 3rd        | lumiscape           | 4th of January, 2023 |
 
-*Effective **January 4, 2024***
+> *Effective **January 4, 2024***
 
 
 # Artist Guidelines
