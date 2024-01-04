@@ -1,14 +1,6 @@
-| title                                | draft      | author              | date |
-| ------------------------------------ | ---------- | ------------------- | ---- |
-| [soulscapeartistguidelines1](/sag-d1.md)          | 1st        | lumiscape           | 3rd of January, 2023 |
-| [soulscapeartistguidelines2](/sag-d2.md) | 2nd        | lumiscape           | 3rd of January, 2023 |
-| soulscapeartistguidelines3 | 3rd        | lumiscape, Bluscape           | 4th of January, 2023 |
-
-> *Effective **January 4, 2024***
-
-
 # Artist Guidelines
-**Some information every Soulscape Artists (or every artist in general) must know**
+> **Some information every Soulscape Artists (or every artist in general) must know**\
+> *Effective **January 4, 2024***
 
 ## 1. Sample & Vocal Usage
 Artists are encouraged to use non-copyrighted, preferably altered, vocals or samples from trusted sources such as sample packs, online platforms (like Splice), or other royalty-free resources. It is important to note that the use of vocals or samples created specifically for a song—commonly referred to as a remix or bootleg—is not permissible for release, except when sourced from our own releases and with explicit permission from the original artist, substantiated by verifiable proof (further details provided in the subsequent paragraph).
@@ -37,3 +29,10 @@ Soulscape may choose to share information about violations with other music plat
 Artists who believe they have been unjustly penalized have the option to appeal Soulscape's decisions by engaging in direct communication with Soulscape and providing supporting evidence. Soulscape will conduct a thorough review of appeals on a case-by-case basis, taking into consideration the available information and the severity of the violation.
 
 Artists who demonstrate an understanding of their violations, take corrective measures, and express a commitment to adhering to Soulscape's guidelines may be eligible for reinstatement. Decisions regarding reinstatement will be made at the sole discretion of Soulscape, taking into account the nature of the violation, the artist's overall track record, and the potential impact on the Soulscape community.
+
+## previous drafts
+| title                                | draft      | author              | date |
+| ------------------------------------ | ---------- | ------------------- | ---- |
+| [soulscapeartistguidelines1](/sag-d1.md)          | 1st        | lumiscape           | 3rd of January, 2023 |
+| [soulscapeartistguidelines2](/sag-d2.md) | 2nd        | lumiscape           | 3rd of January, 2023 |
+| soulscapeartistguidelines3 | 3rd        | lumiscape, Bluscape           | 4th of January, 2023 |
