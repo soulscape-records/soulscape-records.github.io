@@ -1,9 +1,3 @@
-| title                                | draft      | author              | date |
-| ------------------------------------ | ---------- | ------------------- | ---- |
-| soulscapeartistguidelines1         | 1st        | lumiscape           | 3rd of January, 2023 |
-| [soulscapeartistguidelines2](/sag-d2.md) | 2nd        | lumiscape           | 3rd of January, 2023 |
-
-
 <h1 id="artist-guidelines">Artist Guidelines</h1>
 <p><strong>Some information every Soulscape Artists (or every artists in general) must know</strong></p>
 <h2 id="sample--vocal-usage">1. Sample &amp; Vocal Usage</h2>
@@ -18,3 +12,9 @@
 <li>There will be a ton of backlashes of using AI for professional appearances in the first place, as it will be easily recognisable even without using tools like <a href="https://gptzero.me">GPTZero.me</a> and <a href="https://undetectable.ai?_by=lumiscape">Undetectable.ai</a></li>
 </ul>
 
+## previous drafts
+| title                                | draft      | author              | date |
+| ------------------------------------ | ---------- | ------------------- | ---- |
+| soulscapeartistguidelines1          | 1st        | lumiscape           | 3rd of January, 2023 |
+| [soulscapeartistguidelines2](/sag-d2.md) | 2nd        | lumiscape           | 3rd of January, 2023 |
+| [soulscapeartistguidelines3](/sag-d3.md) | 3rd        | lumiscape, Bluscape           | 4th of January, 2023 |
