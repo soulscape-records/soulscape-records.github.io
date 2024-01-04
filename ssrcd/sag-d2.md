@@ -1,9 +1,3 @@
-| title                                | draft      | author              | date |
-| ------------------------------------ | ---------- | ------------------- | ---- |
-| [soulscapeartistguidelines1](/sag-d1.md)          | 1st        | lumiscape           | 3rd of January, 2023 |
-| soulscapeartistguidelines2 | 2nd        | lumiscape           | 3rd of January, 2023 |
-
-
 # Artist Guidelines
 **Some information every Soulscape Artists (or every artist in general) must know**
 
@@ -21,3 +15,10 @@ Please refrain from using AI-generated content for your appearances, as it will 
 - Using AI as your appearance is not acceptable in the first place. As it is not original and does not show your honest work in the industry. *Qualifications matter more than the method used to create a profile picture* — Tristan Barthel, via [medium.com](https://medium.com/@fareedkhandev/ai-profile-pictures-the-secret-to-nailing-your-job-hunt-13fd92949c16)
 - There will be a ton of backlashes of using AI for professional appearances in the first place, as it will be easily recognizable even without using tools like [GPTZero.me](https://gptzero.me) and [Undetectable.ai](https://undetectable.ai?_by=lumiscape)
 - We don't want ourselves to flood our partners' streaming services by using and releasing AI-generated songs to their services. It's like dumping plastics into the sea. Even the AI itself agrees with this, man. "_[It implying] that the unchecked proliferation of AI-generated content could have a detrimental impact on the content landscape_" — OpenAI. (2024). _ChatGPT_ [Large language model]. https://chat.openai.com
+
+## previous drafts
+| title                                | draft      | author              | date |
+| ------------------------------------ | ---------- | ------------------- | ---- |
+| [soulscapeartistguidelines1](/sag-d1.md)          | 1st        | lumiscape           | 3rd of January, 2023 |
+| soulscapeartistguidelines2 | 2nd        | lumiscape           | 3rd of January, 2023 |
+| [soulscapeartistguidelines3](/sag-d3.md) | 3rd        | lumiscape, Bluscape           | 4th of January, 2023 |
